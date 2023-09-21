@@ -23,7 +23,7 @@ public class XuTipCalculator {
         totalCost ++;
         System.out.println("Total bill before tip: $" + totalCost);
         System.out.println("Total percentage: " + tipPercent);
-        System.out.println("Total tip: " + (totalCost/(tipPercent/.10)));
+        System.out.println("Total tip: " + (totalCost/(tipPercent/.01)));
 
     }
 }
